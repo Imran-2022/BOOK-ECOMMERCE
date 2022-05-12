@@ -25,7 +25,6 @@ const Navigation = () => {
                             <Link onClick={handleClick} className="text-centerr nv-color" to="/home">Home</Link>
                             <Link onClick={handleClick} className="text-centerr nv-color" to="/books">Books</Link>
                             <Link onClick={handleClick} className=" nv-color text-centerrr" to="/carts"><span className="mc"><span className="ct">Carts</span><span className="cartsnm">1234</span></span></Link>
-                            <Link onClick={handleClick} className="text-centerr nv-color" to="/contact">Contact</Link>
                             <Link onClick={handleClick} className="text-centerr nv-color" to="/sign-in">Sign-In</Link>
                             
                         </Nav>
