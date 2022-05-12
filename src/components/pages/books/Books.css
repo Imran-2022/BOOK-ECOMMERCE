@@ -5,3 +5,43 @@
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
     grid-gap: 1rem;
 }
+
+.animated{
+    animation: up-down .5s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down {
+    0%{
+       transform: traslateY(10px);
+
+    }
+    100%{
+       transform: traslateY(-10px);
+    }
+}
+@keyframes  up-down {
+    0%{
+       transform: traslateY(10px);
+
+    }
+    100%{
+       transform: traslateY(-10px);
+    }
+}
+
+/* animations */
+.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}

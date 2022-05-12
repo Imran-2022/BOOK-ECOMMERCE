@@ -44,8 +44,8 @@ const Books = () => {
                 </div>
                {
                    featured.length<17 && 
-                   <div className="mt-4 text-center" style={{cursor:'pointer'}}>
-                   <button className='p-2 btn btn-warning color-light' onClick={()=>{setFeatured(fakeBooks)}}>show more books</button>
+                   <div className="mt-4 text-center vert-move" style={{cursor:'pointer'}}>
+                   <button className='p-2 btn btn-warning color-light animated ' onClick={()=>{setFeatured(fakeBooks)}}>show more books</button>
                </div>
                }
 
