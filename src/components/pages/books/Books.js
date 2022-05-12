@@ -3,6 +3,7 @@ import Navigation from '../../shared/navigation/Navigation';
 import fakeBooks from '../../../../src/FakeData/Shop.json'
 import "./Books.css"
 import { Link } from 'react-router-dom';
+import { Button } from 'react-bootstrap';
 
 
 const Books = () => {
@@ -27,9 +28,16 @@ const Books = () => {
                                                 <p>{book}</p>
                                                 <p>{price}</p>
                                             </div>
+                                            
                                         </div>
                                     </div>
                                 </Link>
+                                <Button className="w-100 btn btn-primary" onClick={(e)=>{
+                                    alert("added to cart")
+                                    e.target.innerText="added"
+                                    e.target.classList.add("disabled")
+                                    // console.log(e.target.classList)
+                                }}>add to cart</Button>
                             </div>)
                         })
                     }
@@ -37,7 +45,7 @@ const Books = () => {
                {
                    featured.length<17 && 
                    <div className="mt-4 text-center" style={{cursor:'pointer'}}>
-                   <btn className='p-2 bg-danger color-light' onClick={()=>{setFeatured(fakeBooks)}}>show more</btn>
+                   <button className='p-2 btn btn-warning color-light' onClick={()=>{setFeatured(fakeBooks)}}>show more books</button>
                </div>
                }
 
