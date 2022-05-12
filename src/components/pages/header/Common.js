@@ -5,7 +5,7 @@ import { BsArrowRight } from 'react-icons/bs';
 const Common = (props) => {
     return (
         <>
-            <section id="header" className="d-flex align-items-center pb-5 mb-4" >
+            <section id="header" className="d-flex align-items-center pb-5" >
                 <div className="container-fluid nav-bg">
                     <div className="row">
                         <div className="col-10 mx-auto">
@@ -15,7 +15,7 @@ const Common = (props) => {
                                     <h1>{props.name} <strong className="brand-name"><br/> BOOK-eCOMMERCE
                                     </strong></h1>
                                     <p className="brand-name">the world largest Book shop</p>
-                                    <h2 className="my-3">
+                                    <h2 className="my-3 readingbooks">
                                         here you find any kind of books according to catagories.
                                     </h2>
 

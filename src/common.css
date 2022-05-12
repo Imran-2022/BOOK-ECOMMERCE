@@ -36,13 +36,17 @@ img{
   color: inherit;
   text-decoration: inherit;
 }
+.Link:hover{
+  color: inherit;
+  text-decoration: inherit;
+}
 html{
   scroll-behavior: smooth;
 }
 
 .h-90{
-  height: 90vh !important;
+  min-height: 90vh !important;
 }
 .h-60{
-  height: 50vh !important;
+  min-height: 50vh !important;
 }

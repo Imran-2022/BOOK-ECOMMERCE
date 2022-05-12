@@ -14,7 +14,7 @@ const Navigation = () => {
     return (
         <>
             {/* it's a sticky nv  */}
-            {/* <p class="text-center py-1 mb-0 bg-secondary">hello, books lover !! welcome.</p> */}
+            {/* <p className="text-center py-1 mb-0 bg-secondary">hello, books lover !! welcome.</p> */}
             <Navbar expanded={expanded} expand="lg" className="nv" sticky="top">
                 <Container>
                     <Link className="text-centerr nv-color icons " onClick={handleClick} to="/">BOOK-eCOMMERCE</Link>
@@ -28,7 +28,7 @@ const Navigation = () => {
                                                     <Link onClick={handleClick} className="text-centerr nv-color" to="/shop">Shop</Link>
                                                     <Link onClick={handleClick} className="text-centerr nv-color" to="/featured">Featured</Link>
                                                     <Link onClick={handleClick} className="text-centerr nv-color" to="/recommended">Recommended</Link>
-                                                      <Link onClick={handleClick} className=" nv-color text-centerrr" to="/carts"><span className="mc"><span className="ct">Carts</span><span className="cartsnm">1234</span></span></Link>
+                                                      <Link onClick={handleClick} className=" nv-color text-centerrr" to="/carts"><span className="mc"><span className="ct">Carts</span><span className="cartsnm">00</span></span></Link>
                                                       <Link onClick={handleClick} className="text-centerr nv-color" to="/sign-in">Sign-In</Link>
                                                       
                                                   </Nav>
