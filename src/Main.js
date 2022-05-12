@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import SignUp from './components/authentication/signUp/SignUp';
 import SignIn from './components/authentication/singIn/SignIn';
 import Home from './components/home/Home';
+import AllBooksDetails from './components/pages/books/allBooksDetails/AllBooksDetails';
 import Books from './components/pages/books/Books';
 import Featured from './components/pages/books/Featured/Featured';
 import Recommended from './components/pages/books/Recommended/Recommended';
@@ -22,6 +23,7 @@ const Main = () => {
                 <Route path="/sign-up" element={<SignUp />} />
                 <Route path="/featured" element={<Featured />} />
                 <Route path="/recommended" element={<Recommended/>} />
+                <Route path="/books/:details" element={<AllBooksDetails/>} />
                 <Route path="/search/:abc" element={<SearchR/>} />
                 <Route path="*" element={<Nomatch />} />
             </Routes>

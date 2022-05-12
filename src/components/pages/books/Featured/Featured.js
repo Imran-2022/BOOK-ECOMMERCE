@@ -13,7 +13,7 @@ const Featured = () => {
         <div>
             <Navigation/>
             <div className="container h-60 d-flex justify-content-center align-items-center">
-                <p>featured books</p>
+                <p>Featured books</p>
             </div>
             <FeaturedBooks/>
         </div>
