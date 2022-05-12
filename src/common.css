@@ -41,5 +41,8 @@ html{
 }
 
 .h-90{
-  height: 90vh;
+  height: 90vh !important;
+}
+.h-60{
+  height: 50vh !important;
 }

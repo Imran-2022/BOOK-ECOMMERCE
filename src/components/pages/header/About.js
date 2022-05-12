@@ -6,7 +6,7 @@ const About = () => {
             <Common
                 name="Wekcome to" 
                 imagescr="https://i.ibb.co/NF8tFWN/books-removebg-preview.png" 
-                visit="/books" btname="Buy Now"
+                visit="/shop" btname="Shop Now "
              />
         </> 
     );

@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Container, Nav, Navbar} from 'react-bootstrap';
 import "./Navigation.css"
 import { Link } from 'react-router-dom';
 import { AiOutlineBars } from 'react-icons/ai';
 import { ImCross } from 'react-icons/im';
+import SearchBar from './SearchBar';
 const Navigation = () => {
     const [expanded, setExpanded] = useState(false);
     const handleClick = () => {
@@ -22,15 +23,18 @@ const Navigation = () => {
                     </Navbar.Toggle>
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto ">
-                            <Link onClick={handleClick} className="text-centerr nv-color" to="/home">Home</Link>
-                            <Link onClick={handleClick} className="text-centerr nv-color" to="/books">Books</Link>
-                            <Link onClick={handleClick} className=" nv-color text-centerrr" to="/carts"><span className="mc"><span className="ct">Carts</span><span className="cartsnm">1234</span></span></Link>
-                            <Link onClick={handleClick} className="text-centerr nv-color" to="/sign-in">Sign-In</Link>
-                            
-                        </Nav>
-                    </Navbar.Collapse>
-                </Container>
-            </Navbar>
+                            <SearchBar/>
+                                <Link onClick={handleClick} className="text-centerr nv-color" to="/home">Home</Link>
+                                                    <Link onClick={handleClick} className="text-centerr nv-color" to="/shop">Shop</Link>
+                                                    <Link onClick={handleClick} className="text-centerr nv-color" to="/featured">Featured</Link>
+                                                    <Link onClick={handleClick} className="text-centerr nv-color" to="/recommended">Recommended</Link>
+                                                      <Link onClick={handleClick} className=" nv-color text-centerrr" to="/carts"><span className="mc"><span className="ct">Carts</span><span className="cartsnm">1234</span></span></Link>
+                                                      <Link onClick={handleClick} className="text-centerr nv-color" to="/sign-in">Sign-In</Link>
+                                                      
+                                                  </Nav>
+                                            </Navbar.Collapse>
+                                        </Container>
+                                  </Navbar>
 
         </>
     );

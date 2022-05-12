@@ -1,6 +1,7 @@
 import React from 'react';
 import "./About.css"
 import { NavLink } from 'react-router-dom';
+import { BsArrowRight } from 'react-icons/bs';
 const Common = (props) => {
     return (
         <>
@@ -21,7 +22,7 @@ const Common = (props) => {
                                     <div className="mt-3">
                                         <NavLink to={props.visit}
 
-                                            className="btn-get-started">{props.btname}</NavLink>
+                                            className="btn-get-started">{props.btname} <BsArrowRight /></NavLink>
                                     </div>
                                 </div>
                                 <div className="col-lg-6 order-1 order-lg-2 header-img vert-move">

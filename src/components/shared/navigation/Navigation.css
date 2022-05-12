@@ -89,9 +89,10 @@
   
   .mc {
     padding: 15px 10px;
-    background: #1c67d6 !important;
-    border-radius: 30px;
-  }
+    background: #00000008 !important;
+    border-radius: 3px;
+    box-shadow: rgb(0 236 255 / 0%) 0px 7px 29px 0px;
+}
   @media (max-width:600px) {
     .text-centerr:hover:after {
       width:0px;
@@ -103,3 +104,12 @@
   }
 
  
+/* css */
+.input{
+  outline: none !important;
+  border: none !important;
+  padding: 5px;
+}
+.searchbar{
+  cursor: pointer;
+}
