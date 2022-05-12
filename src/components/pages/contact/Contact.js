@@ -1,13 +1,13 @@
 import React from 'react';
 import Navigation from '../../shared/navigation/Navigation';
-import "./SignIn.css"
-const SignIn = () => {
+import "./Contact.css"
+const Contact = () => {
     return (
         <div>
             <Navigation/>
-            <p>signin page</p>
+            <p>contact page</p>
         </div>
     );
 };
 
-export default SignIn;
+export default Contact;
