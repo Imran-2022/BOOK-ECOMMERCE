@@ -39,6 +39,66 @@ const Carts = () => {
                                             </td>
                                             <td className="btnmanage text-center" ><ImCross /></td>
                                         </tr>
+                                        <tr>
+                                            <td className="text-center">12</td>
+                                            <td className="text-center">
+                                                <img width="60px" height="40px" src="" alt="no images" />
+                                            </td>
+                                            <td className="text-start ps-5">title</td>
+                                            <td className="text-center ">
+                                                <FaPlus className="me-5"/>
+                                                <FaMinus/>
+                                            </td>
+                                            <td className="btnmanage text-center" ><ImCross /></td>
+                                        </tr>
+                                        <tr>
+                                            <td className="text-center">12</td>
+                                            <td className="text-center">
+                                                <img width="60px" height="40px" src="" alt="no images" />
+                                            </td>
+                                            <td className="text-start ps-5">title</td>
+                                            <td className="text-center ">
+                                                <FaPlus className="me-5"/>
+                                                <FaMinus/>
+                                            </td>
+                                            <td className="btnmanage text-center" ><ImCross /></td>
+                                        </tr>
+                                        <tr>
+                                            <td className="text-center">12</td>
+                                            <td className="text-center">
+                                                <img width="60px" height="40px" src="" alt="no images" />
+                                            </td>
+                                            <td className="text-start ps-5">title</td>
+                                            <td className="text-center ">
+                                                <FaPlus className="me-5"/>
+                                                <FaMinus/>
+                                            </td>
+                                            <td className="btnmanage text-center" ><ImCross /></td>
+                                        </tr>
+                                        <tr>
+                                            <td className="text-center">12</td>
+                                            <td className="text-center">
+                                                <img width="60px" height="40px" src="" alt="no images" />
+                                            </td>
+                                            <td className="text-start ps-5">title</td>
+                                            <td className="text-center ">
+                                                <FaPlus className="me-5"/>
+                                                <FaMinus/>
+                                            </td>
+                                            <td className="btnmanage text-center" ><ImCross /></td>
+                                        </tr>
+                                        <tr>
+                                            <td className="text-center">12</td>
+                                            <td className="text-center">
+                                                <img width="60px" height="40px" src="" alt="no images" />
+                                            </td>
+                                            <td className="text-start ps-5">title</td>
+                                            <td className="text-center ">
+                                                <FaPlus className="me-5"/>
+                                                <FaMinus/>
+                                            </td>
+                                            <td className="btnmanage text-center" ><ImCross /></td>
+                                        </tr>
                                     </tbody>
 
                                 </table>
