@@ -28,13 +28,16 @@ const Testimonials = () => {
     return (
         <div
             className="testimonial"
-            style={{ display: "flex", justifyContent: "center", marginTop: 50 }}
+            style={{ display: "flex", justifyContent: "center", marginTop: 10 }}
         >
             <div style={{ width: "50%", textAlign: "center" }}>
                 <Slider prevArrow={<PreviousBtn />} nextArrow={<NextBtn />} dots>
                     <Card img="https://www.tutorialrepublic.com/examples/images/clients/1.jpg" />
                     <Card img="https://www.tutorialrepublic.com/examples/images/clients/2.jpg" />
                     <Card img="https://www.tutorialrepublic.com/examples/images/clients/3.jpg" />
+                    <Card img="https://www.tutorialrepublic.com/examples/images/clients/4.jpg" />
+                    <Card img="https://www.tutorialrepublic.com/examples/images/clients/5.jpg" />
+                    <Card img="https://www.tutorialrepublic.com/examples/images/clients/6.jpg" />
                 </Slider>
             </div>
         </div>
@@ -59,12 +62,11 @@ const Card = ({ img }) => {
                 style={{
                     width: 120,
                     height: 120,
-                    border: "1px solid lightgray",
-                    padding: 7,
+                    border: ".1px solid #fff",
                     marginBottom: 20,
                 }}
             />
-            <p>
+            <p className="text-light">
                 Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia.
                 Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan
                 tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt

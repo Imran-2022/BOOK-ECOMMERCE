@@ -10,23 +10,25 @@ import Testimonials from '../pages/testimonials/Testimonials';
 const Home = () => {
     return (
         <div>
-            <Navigation/>
-            <Header/>
-            <Home2/>
+            <Navigation />
+            <Header />
+            <Home2 />
             <div className="container d-flex justify-content-between align-items-center py-5">
                 <p className="display-6">FeaturedBooks</p>
                 <Link to="/featured">See ALL</Link>
             </div>
-            <FeaturedBooks/>
+            <FeaturedBooks />
             <div className="container d-flex justify-content-between align-items-center py-5">
                 <p className="display-6">RecommendedBooks</p>
                 <Link to="/recommended">See ALL</Link>
             </div>
-            <RecommendedBooks/>
-            <div className="container py-5">
-                <p className="display-6">What Our client says ?</p>
+            <RecommendedBooks />
+            <div className="p-4  bg-primary authorsays " style={{backgroundImage: 'linear-gradient(rgba(6, 11, 37, 0.89), rgba(4, 9, 30, 0.92)), url(https://alifeofproductivity.com/wp-content/uploads/2016/09/bookRZ.jpg)'}}>
+                <div className="container pb-5">
+                    <h1>Here's what <span>Authors</span> say:</h1>
+                </div>
+                <Testimonials />
             </div>
-            <Testimonials/>
         </div>
     );
 };

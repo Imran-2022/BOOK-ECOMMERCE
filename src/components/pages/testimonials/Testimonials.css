@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 .testimonial .slick-arrow.slick-prev,
 .testimonial .slick-arrow.slick-next {
   width: 40px;
@@ -23,4 +25,37 @@
 }
 .testimonial .slick-dots li {
   top: 15px;
+}
+
+h1 {
+    color: #fdfdfd;
+    font-family: "Arvo", serif;
+    font-size: 1.5rem;
+    text-align: left;
+    font-weight: 400;
+    margin: 3rem 0 0 0;
+  }
+  
+  h1 span {
+    font-family: "Satisfy", cursive;
+    font-size: 2rem;
+    color: #ff6200;
+  }
+.slick-dots {
+   padding-bottom: 20px !important;
+}
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    color: #ff00a2 !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
