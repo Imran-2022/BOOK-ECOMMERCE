@@ -4,14 +4,16 @@ import fakeBooks from '../../../../src/FakeData/Shop.json'
 import "./Books.css"
 import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
-
+import { useSelector, useDispatch } from 'react-redux'
+import {increment} from "../../redux/actions"
 
 const Books = () => {
+    const counter = useSelector(state => state.counter)
+    const dispatch=useDispatch()
     const [featured, setFeatured] = useState(fakeBooks.slice(0, 16))
     return (
         <div>
             <Navigation />
-
             <div className='container h-60 my-5'>
                 <div className="product-display-gridd">
                     {
@@ -33,7 +35,7 @@ const Books = () => {
                                     </div>
                                 </Link>
                                 <Button className="w-100 btn btn-primary" onClick={(e)=>{
-                                    alert("added to cart")
+                                    dispatch(increment(1))
                                     e.target.innerText="added"
                                     e.target.classList.add("disabled")
                                     // console.log(e.target.classList)
