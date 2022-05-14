@@ -50,3 +50,10 @@ html{
 .h-60{
   min-height: 50vh !important;
 }
+.h-91{
+  min-height: 100vh !important;
+
+}
+.mb-55{
+  margin-bottom: 60px;
+}
